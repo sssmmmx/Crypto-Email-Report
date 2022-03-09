@@ -6,10 +6,10 @@ import json
 
 class WeChatSMS:
     def __init__(self):
-        self.CORPID = 'ww06a604fb28eaed85'                                  # 企业ID， 登陆企业微信，在我的企业-->企业信息里查看
-        self.CORPSECRET = 'pild-Z_qjG748RfUInpTG0h-6B3CagmXswE024Vaks8'     # 自建应用，每个自建应用里都有单独的secret
+        self.CORPID = '123'                                                 # 企业ID， 登陆企业微信，在我的企业-->企业信息里查看
+        self.CORPSECRET = '123'                                             # 自建应用，每个自建应用里都有单独的secret
         self.AGENTID = '1000004'                                            # 应用代码
-        self.TOUSER = "LinDingXuan"                               # 接收者用户名,  @all 全体成员 接收者用户名,多个用户用|分割
+        self.TOUSER = "123"                                                 # 接收者用户名,  @all 全体成员 接收者用户名,多个用户用|分割
 
     def _get_access_token(self):
         url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken'
